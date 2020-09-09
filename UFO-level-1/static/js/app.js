@@ -25,6 +25,9 @@ function runEnter() {
     // prevent the page from refreshing
     d3.event.preventDefault();
 
+    // clear out the tbody html element to populate the new info
+    table.html(" ");
+
     // log with action dispatched the event
     console.log(d3.event.target)
 
