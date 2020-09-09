@@ -1,17 +1,8 @@
 // from data.js
 var ufoData = data;
+
+// created a json to export to python for disovery in pandas module
 var json = JSON.stringify(ufoData)
-console.log(json)
-
-// const fs = require('fs');
-
-// write JSON string to a file
-filesystem.writeFile('data.json', data, (err) => {
-    if (err) {
-        throw err;
-    }
-    console.log("JSON data is saved.");
-});
 
 // YOUR CODE HERE!
 console.log(data)
@@ -30,6 +21,24 @@ var table = d3.select("tbody")
 // ".on('event', function)" will run a function based on an event that happens with the listener variable
 button.on("click", runEnter);
 form.on("change", runEnter);
+
+/////// NEED TO INCLUDE /////////////
+// 1. drop downs for shape and country
+// 2. forms for state and city - make sure to turn all string to LOWERCASE
+// 3. store the "values" of each into a unique variable
+// 3.1 how to choose the choosen value from the drop down
+// 4. in your ".filter()" function use the "&&" as the boolean to iterate
+// 5. select "ul" then in append an "li" for each drop down element 
+{/* <div class="form-group">
+    <label for="exampleFormControlSelect1">Example select</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div> */}
 
 // create the function for the event handler
 function runEnter() {
