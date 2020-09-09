@@ -35,6 +35,18 @@ function runEnter() {
     console.log(`clicked button ${clickValue}`);
 
     // filter the data to correspond to the date selected
-    var filteredData = ufoData.filter(sighting => sighting.datetime == inputValue);
-    console.log(filteredData);
+    var filteredUfo = ufoData.filter(sighting => sighting.datetime == inputValue);
+    console.log(filteredUfo);
+
+    filteredUfo.forEach(ufo => {
+        console.log(ufo);
+        var row = table.append("tr");
+
+        Object.entries(ufo).forEach(([key, value]) => {
+            console.log(key, value);
+
+            var cell = row.append("td");
+            cell.text(value);
+        })
+    })
 }
