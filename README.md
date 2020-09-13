@@ -8,12 +8,12 @@ There's are four files that work in unison in this app:
 * Data file of an array of objects in javascript
 * Javascript to manipulate the Document Object Model of the HTML
 
-## 3 takeaway concepts concepts 
+## 4 takeaway concepts concepts 
 
-Identify HTML elements for event listener/handler DOM manipulation.
-![html_dom_listener](../images/html-screenshot.jpg)
+1. Identify HTML elements for event listener/handler DOM manipulation.
+![html_dom_listener](UF-level-1/static/images/html-screenshot.jpg)
 
-Event Listener/Handler - Identify the HTML elements/nodes to listen to for changes using the javascript functions:
+2. Event Listener/Handler - Identify the HTML elements/nodes to listen to for changes using the javascript functions:
 ```javascript
 // choose the element 
 d3.select("#something)
