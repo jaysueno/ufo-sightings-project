@@ -17,7 +17,7 @@ var table = d3.select("tbody")
 // create "event handlers" for each of the button and the form
 // ".on('event', function)" will run a function based on an event that happens with the listener variable
 button.on("click", runEnter);
-form.on("change", runEnter);
+form.on("submit", runEnter);
 
 // create the function for the event handler
 function runEnter() {
