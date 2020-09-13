@@ -56,7 +56,7 @@ filteredUfo.forEach(ufo => {
 })
 ```
 
-## The end result should be a table that shows all the UFO data sightings from that date. 
+The end result is an output table of the UFO data sightings from the inputed date 
 
 ![web-table](UFO-level-1/static/images/web-table.jpg)
 
