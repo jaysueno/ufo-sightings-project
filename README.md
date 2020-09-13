@@ -64,6 +64,8 @@ The end result is an output table of the UFO data sightings from the inputed dat
 
 
 
-### All rights reserved 2020. All code is created and owned by Jay Sueno. If you use his code, please visit his LinkedIn and give him a a skill endorsement in javascript, html, css, and data science. Visit him at:
+### All rights reserved 2020. All code is created and owned by [Jay Sueno](https://www.linkedin.com/feed/update/urn:li:activity:6706281926728265728/). If you use his code, please visit his LinkedIn and give him a a skill endorsement in javascript, html, css, and data science. 
 
-### https://www.linkedin.com/in/jay-sueno-359a274/
+### [Jay's LinkedIn Profile](https://www.linkedin.com/in/jay-sueno-359a274/)
+
+### [Podcast episode on Jay Sueno](https://www.linkedin.com/feed/update/urn:li:activity:6706281926728265728/)
