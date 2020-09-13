@@ -14,6 +14,8 @@ console.log(button.html())
 var form = d3.select(".form-control");
 console.log(form.html())
 
+
+
 // select the HTML node/element for the table body
 var table = d3.select("tbody")
 
@@ -21,6 +23,9 @@ var table = d3.select("tbody")
 // ".on('event', function)" will run a function based on an event that happens with the listener variable
 button.on("click", runEnter);
 form.on("change", runEnter);
+
+// // prevent a refresh of the page
+// d3.event.preventDefault();
 
 /////// NEED TO INCLUDE /////////////
 // 1. drop downs for shape and country
