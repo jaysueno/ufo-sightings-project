@@ -10,7 +10,7 @@ There's are three files that work in unison in this app:
 ## 3 takeaway concepts concepts 
 
 Identify HTML elements for event listener/handler DOM manipulation
-![html_dom_listener](Images/html-screenshot.jpg)
+![html_dom_listener](../Images/html-screenshot.jpg)
 
 Event Listener/Handler - Identify the HTML elements/nodes to listen to for changes using the javascript functions:
 ```javascript
