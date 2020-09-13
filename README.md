@@ -9,11 +9,19 @@ There's are three files that work in unison in this app:
 
 ## 3 takeaway concepts concepts 
 
-Event Listeners - Identify the HTML elements/nodes to listen to for changes using the javascript functions:
+Identify HTML elements for event listener/handler DOM manipulation
+![html_dom_listener](Images/html-screenshot.jpg)
+
+Event Listener/Handler - Identify the HTML elements/nodes to listen to for changes using the javascript functions:
 ```javascript
+// choose the element 
 d3.select("#something)
+// define what type of change to look for and what function to do after
 .on("someChange", function())
 ``` 
+
+
+
 
 I tested my code in a Jupyter Notebook - mission_to_mars.ipynb. I then migrated that code into my scrape function. 
 
